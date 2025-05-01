@@ -1,6 +1,7 @@
 import sys, requests
 
-URL = "https://gateway.thegraph.com/api/7910f1ec3f636e30d77d9d0a32334eac/subgraphs/id/2xrWGGZ5r8Z7wdNdHxhbRVKcAD2dDgv3F2NcjrZmxifJ"
+### REPLACE [API-KEY]
+URL = "https://gateway.thegraph.com/api/[API-KEY]/subgraphs/id/2xrWGGZ5r8Z7wdNdHxhbRVKcAD2dDgv3F2NcjrZmxifJ"
 
 query = """
 query ($assets: [String!]) {
